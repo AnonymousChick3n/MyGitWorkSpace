@@ -10,7 +10,7 @@ Description of the project: This project is being compiled to help the managemen
 
 	Back-end:
 
-Description of inputs:
+Description of inputs: student Number
 
 Description of outputs:
 
