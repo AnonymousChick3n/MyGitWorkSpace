@@ -15,7 +15,7 @@ $ pip install Flask
 ```
 
 ```
-$ sudo apt-get install python 3.0
+$ sudo apt-get install python3-pip
 ```
 ## How To Use
 
