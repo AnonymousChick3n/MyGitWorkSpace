@@ -17,7 +17,7 @@ $ pip install flask
 ```
 $ sudo apt-get install python 3.0
 ```
-## How to use
+## How To Use
 
 To-do
 
