@@ -17,12 +17,12 @@ Description of inputs:
 
 Description of outputs:
 
-Responsibilities:
-	Nando Bingani: 
-	Taylor Letsoaka:
-	Ziphozonke Mbatha:
-	Nkavelo Nxumalo:
-	Lesetsa Mafisa:
+## Contributors
+-Nando Bingani: 
+-Taylor Letsoaka:
+-Ziphozonke Mbatha:
+-Nkavelo Nxumalo:
+-Lesetsa Mafisa:
 
 ## License & copyright
-© Taylor, Lesetja, Nando, Nkavelo , Zipho, Wits University 2018 
+© T Letsoaka, L Mafisa, N Bingani, N Nxumalo , Z Mbatha, Wits University 2018 
