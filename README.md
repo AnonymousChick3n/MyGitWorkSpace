@@ -6,7 +6,7 @@ This is a Python web application and the purpose of the application is to allow 
 
 ## Dependencies
 
-The app will be written in http://flask.pocoo.org/ "Flask" using Python 3. 
+The app will be written in [Flask](http://flask.pocoo.org/ "Flask") using Python 3. 
 
 ## Contributors
 - Nando Bingani: 
