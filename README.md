@@ -10,7 +10,7 @@ The app will be written in [Flask](http://flask.pocoo.org/ "Flask") using [Pytho
 
 ## Contributors
 - Nando Bingani: 
-- Taylor Letsoaka : 
+- Taylor Letsoaka : Android App and Browser Interface front-end
 - Ziphozonke Mbatha:
 - Nkavelo Nxumalo:
 - Lesetsa Mafisa:
