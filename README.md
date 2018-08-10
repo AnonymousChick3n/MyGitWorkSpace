@@ -11,7 +11,11 @@ The app will be written in [Flask](http://flask.pocoo.org/ "Flask") using [Pytho
 ### Installation
 
 ```
-pip install flask
+$ pip install flask
+```
+
+```
+$ sudo apt-get install python 3.0
 ```
 
 ## Contributors
