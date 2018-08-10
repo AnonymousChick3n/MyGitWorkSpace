@@ -1,3 +1,6 @@
+# Examiner's Board Meeting
+
+**Version 1.0.0**
 
 Repository name: MyGitWorkSpace
 Branch: Master
@@ -21,5 +24,5 @@ Responsibilities:
 	Nkavelo Nxumalo:
 	Lesetsa Mafisa:
 
-
-
+## License & copyright
+© Taylor, Lesetja, Nando, Nkavelo , Zipho, Wits University 2018 
