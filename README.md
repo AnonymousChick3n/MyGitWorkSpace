@@ -10,9 +10,9 @@ The app will be written in [Flask](http://flask.pocoo.org/ "Flask") using [Pytho
 
 ### Installation
 
-'''
+```
 pip install flask
-'''
+```
 
 ## Contributors
 - Nando Bingani: 
