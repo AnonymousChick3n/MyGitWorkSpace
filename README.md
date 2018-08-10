@@ -18,11 +18,11 @@ Description of inputs:
 Description of outputs:
 
 ## Contributors
--Nando Bingani: 
--Taylor Letsoaka:
--Ziphozonke Mbatha:
--Nkavelo Nxumalo:
--Lesetsa Mafisa:
+- Nando Bingani: 
+- Taylor Letsoaka:
+- Ziphozonke Mbatha:
+- Nkavelo Nxumalo:
+- Lesetsa Mafisa:
 
 ## License & copyright
 © T Letsoaka, L Mafisa, N Bingani, N Nxumalo , Z Mbatha, Wits University 2018 
