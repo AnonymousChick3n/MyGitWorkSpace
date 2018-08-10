@@ -8,6 +8,12 @@ This is a Python web application and the purpose of the application is to allow 
 
 The app will be written in [Flask](http://flask.pocoo.org/ "Flask") using [Python 3](https://www.python.org/download/releases/3.0/). 
 
+### Installation
+
+'''
+pip install flask
+'''
+
 ## Contributors
 - Nando Bingani: 
 - Taylor Letsoaka : Android App and Browser Interface front-end
