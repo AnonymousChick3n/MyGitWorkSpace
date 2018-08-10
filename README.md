@@ -28,4 +28,4 @@ $ sudo apt-get install python 3.0
 ## References
 To-do
 ## License & copyright
-© T Letsoaka, L Mafisa, N Bingani, N Nxumalo , Z Mbatha, Wits University 2018 
+© T Letsoaka, L Mafisa, N Bingani, N Nxumalo , Z Mbatha. Wits University 2018 
