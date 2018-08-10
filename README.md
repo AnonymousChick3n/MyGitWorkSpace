@@ -22,11 +22,11 @@ $ sudo apt-get install python3-pip
 To-do
 
 ## Contributors
-- Nando Bingani: 
-- Taylor Letsoaka : Android App and Browser Interface front-end
-- Ziphozonke Mbatha:
-- Nkavelo Nxumalo:
-- Lesetsa Mafisa:
+- Nando Bingani : Browser Interface back-end
+- Taylor Letsoaka : Android App front-end
+- Ziphozonke Mbatha : Security administration
+- Nkavelo Nxumalo : Browser Interface front-end
+- Lesetsa Mafisa : Android App back-end
 
 ## References
 To-do
