@@ -6,7 +6,7 @@ This is a Python web application and the purpose of the application is to allow 
 
 ## Dependencies
 
-The app will be written in Flask using Python 3. 
+The app will be written in <http://flask.pocoo.org/> using Python 3. 
 
 ## Contributors
 - Nando Bingani: 
@@ -15,5 +15,7 @@ The app will be written in Flask using Python 3.
 - Nkavelo Nxumalo:
 - Lesetsa Mafisa:
 
+## References
+To-do
 ## License & copyright
 © T Letsoaka, L Mafisa, N Bingani, N Nxumalo , Z Mbatha, Wits University 2018 
