@@ -6,7 +6,7 @@ This is a Python web application and the purpose of the application is to allow 
 
 ## Dependencies
 
-The app will be written in [Flask](http://flask.pocoo.org/ "Flask") using [Python 3](https://www.python.org/download/releases/3.0/). 
+The app will be written in [Flask](http://flask.pocoo.org/ "Flask") using [Python 3](https://www.python.org/download/releases/3.0/).  We will be using [MySQL](https://www.apachefriends.org/index.html) for the database.
 
 ### Installation
 
