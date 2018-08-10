@@ -10,8 +10,8 @@ Description of the project: This project is being compiled to help the managemen
 
 	Back-end: the back end of this system will be an online database that will consist of an administrator, student,session and dean tables where the administraor will be the one responsible for the main operations of the system as the power user and the student will be the one vallidated on the other hand the dean will be responsible for voting for each open session.
 
-
-Description of outputs:
+Description of inputs:A search box that searches for a specific student number of a student. A change of status to a pass if a student has been given permission from the management.Inputs of votes made by the management regarding the decision of whether to allow the student to proceed or not.
+Description of outputs:The corresponding grade of the student that is up for discussion.
 
 Responsibilities:
 	Nando Bingani: 
