@@ -1,7 +1,7 @@
 
 # Repository name: MyGitWorkSpace
-Branch: Master
-Url: https://github.com/AnonymousChick3n/MyGitWorkSpace/blob/master/README.md
+# Branch: Master
+# Url: https://github.com/AnonymousChick3n/MyGitWorkSpace/blob/master/README.md
 
 
 Description of the project: This project is being compiled to help the management decide if they allow  the students to proceed or not due to their failed courses.
