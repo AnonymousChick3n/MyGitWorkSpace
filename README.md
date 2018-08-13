@@ -1,3 +1,6 @@
+# Examiners' Board Meeting Application
+
+**Version 1.0.0**
 
 # Repository name: MyGitWorkSpace
 # Branch:
