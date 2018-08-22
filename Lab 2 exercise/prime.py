@@ -18,7 +18,7 @@ def prime_numbers(max):
     N = 0
     numbers = []
     marked = [False]*max
-    print(len(marked))
+
     if(max < 2):
         print("No primes")
     elif (max == 2):
@@ -49,12 +49,11 @@ def prime_numbers(max):
         for i in range(2, len(marked)):
             if marked[i] == False:
                 primes.append(numbers[i])
+        N = len(primes)
+        print("List of primes: ", primes)
+        print("Number of primes: ", N)
 
-        print(primes)
 if __name__ == '__main__':
 
     max = input("Enter upper bound:")
-    #PrimeNumbers(max)
-
     prime_numbers(max)
-
