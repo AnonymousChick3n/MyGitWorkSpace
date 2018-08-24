@@ -1,17 +1,23 @@
 def PrimeNumbers(max):
 
-    for number in range(2, max+1):
+    if(max > 1):
+        primes = []
+        for number in range(2, max+1):
+            prime = True
+            for divisor in range(2, number):
+                if(number == 2):
+                    prime = True
+                elif(number%divisor == 0):
+                    prime = False
+            if(prime):
+                primes.append(number)
+        #print(primes)
+        return str(primes)
+    elif(max == 0 or max == 1):
+        return str([])
+    else:
+        return str([])
 
-        prime = True
-        for divisor in range(2, number):
-
-            if(number == 2):
-                prime = True
-            elif(number%divisor == 0):
-                prime = False
-
-        if(prime):
-            print(number)
 
 def prime_numbers(max):
 
@@ -53,7 +59,38 @@ def prime_numbers(max):
         print("List of primes: ", primes)
         print("Number of primes: ", N)
 
+def testProg():
+
+    file = open("test.txt" , "r")
+
+    n = 0
+
+    for line in file:
+        n += 1
+        contents = line.split(":")
+        _input = int(contents[0])
+        _output =(contents[1].strip())
+        try:
+            assert(PrimeNumbers(_input) == _output)
+            print("Test {0} passed".format(n))
+
+        except Exception as e:
+            print("Test {0} failed".format(n))
+
+
 if __name__ == '__main__':
 
-    max = input("Enter upper bound:")
-    prime_numbers(max)
+    invalid = True
+
+    while (invalid):
+        _max = input("Enter number: ")
+
+        if (_max.isdigit()):
+            invalid = False
+        else:
+            print("Integers only")
+
+    testProg()
+
+
+    #testProg()
