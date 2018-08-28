@@ -1,0 +1,11 @@
+# Purpose 
+This is a Python web application and the purpose of the application is to allow members of the Science Faculty
+at Wits University to approve the promotion, failure or exclusion status of each student. 
+This application enables each student's marks to be viewed on any device used by the participants of the meeting.
+
+The web-application will replace the old paper based system.
+
+#Scope
+Examiners' Board Meeting is an application that facilitates a system used by the faculty
+to make a decisions based on whether students' status changes or not. It is a web-based 
+application where different users(Admininstrators, Dean, Lecturers) vote.
