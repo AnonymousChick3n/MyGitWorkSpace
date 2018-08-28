@@ -23,4 +23,11 @@ MySQL
 #### Development end
 Vaadin( Java, JavaScript, HTML, CSS, XML ), phpMyAdmin, OS (Windows 7)
 ### (b) Hardware Interface
-   
+## 2.2 Product Functions
+The system must:
+(a) - Display a list of all registered students in the Science faculty.
+    - View all the courses in which each student is enrolled for , marks , class attendance , progress etc.
+(b) - Create a voting session for each individual course. 
+    - Enable members to vote on progress outcome of each course. 
+    - Count number of votes and decide on outcome. 
+(c) - Update the student's status together with the mark.
