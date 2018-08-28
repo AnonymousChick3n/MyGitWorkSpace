@@ -1,6 +1,6 @@
 ## 1.4 References
 IEEE Std 830-1998, IEEE Recommended Practice for Software Requirements Specifications 
-(Revision of IEEE Std 830-1993) IEEE Computer Society, 1998.
+(Revision of IEEE Std 830-1993), IEEE Computer Society, 1998.
 
 ## 1.5 Overview of Documentation
 The forthcoming section i.e. the Overall Description, will give a more broad explanation of how the product
