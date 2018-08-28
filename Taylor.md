@@ -21,7 +21,7 @@ Apache
 #### Database Server
 MySQL
 #### Development end
-Vaadin( Java, JavaScript, HTML, CSS, XML ), phpMyAdmin, OS (Windows 7)
+Vaadin(Java, JavaScript, HTML, CSS, XML), phpMyAdmin, OS (Windows 7)
 ### (b) Hardware Interface
 ## 2.2 Product Functions
 The system must:
@@ -36,4 +36,11 @@ The system must:
 The system will require basic computer skills and the use of a web browser.
 
 Registrar/Dean - Will be facilitating the mark review process
-Members- These include lecturers , school reprisentatives 
+Members- These include lecturers , school reprisentatives.
+
+## 2.4 Constraints
+The application will be web based and written in Java, JavaScript, HTML and CSS. Anyone willing to further devlop it will
+have to know these technologies. 
+And since it is web based, it will require internet access. The apps should be restricted to work on the Wits proxy only.
+
+
