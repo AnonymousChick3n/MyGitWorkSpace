@@ -11,7 +11,7 @@ hence it uses a lot of technical jargon.
 
 # 2. Overall description
 ## 2.1 Product perspective
-### 2.1 (a) Software Interface
+### (a) Software Interface
 #### Client on Internet
 Web browser(IE12, Mozilla Firefox 49.0.1, Chrome 48.0 and above), OS (Windows Vista and above)
 #### Client on Intranet
@@ -22,5 +22,5 @@ Apache
 MySQL
 #### Development end
 Vaadin( Java, JavaScript, HTML, CSS, XML ), phpMyAdmin, OS (Windows 7)
-#### 2.3 Hardware Interface
+### (b) Hardware Interface
    
