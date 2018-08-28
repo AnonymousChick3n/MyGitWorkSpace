@@ -26,8 +26,14 @@ Vaadin( Java, JavaScript, HTML, CSS, XML ), phpMyAdmin, OS (Windows 7)
 ## 2.2 Product Functions
 The system must:
 (a) - Display a list of all registered students in the Science faculty.
-    - View all the courses in which each student is enrolled for , marks , class attendance , progress etc.
+    - View all the courses in which each student is enrolled for , marks , class attendance , progress etc. *insert picture of marks
 (b) - Create a voting session for each individual course. 
     - Enable members to vote on progress outcome of each course. 
     - Count number of votes and decide on outcome. 
 (c) - Update the student's status together with the mark.
+
+## 2.3 User Characteristics 
+The system will require basic computer skills and the use of a web browser.
+
+Registrar/Dean - Will be facilitating the mark review process
+Members- These include lecturers , school reprisentatives 
