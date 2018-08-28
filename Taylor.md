@@ -42,5 +42,5 @@ Members- These include lecturers , school reprisentatives.
 The application will be web based and written in Java, JavaScript, HTML and CSS. Anyone willing to further devlop it will
 have to know these technologies. 
 And since it is web based, it will require internet access. The apps should be restricted to work on the Wits proxy only.
-
+Furthermore, the system should only allow members of the Science Faculty to access it.
 
