@@ -1,3 +1,5 @@
+Read Me: please find the  attached code and pdf of our SRS above
+
 # Examiners' Board Meeting Application
 
 **Version 1.0.0**
