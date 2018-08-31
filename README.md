@@ -1,5 +1,5 @@
 Read Me: please find the  attached code and pdf(Examiners board.pdf)of our SRS above /by clicking on MyGitWorkSpace
-https://github.com/AnonymousChick3n/MyGitWorkSpace/edit/master
+https://github.com/AnonymousChick3n/MyGitWorkSpace
 
 
 # Examiners' Board Meeting Application
