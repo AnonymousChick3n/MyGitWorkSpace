@@ -83,3 +83,12 @@ Furthermore, the system should only allow members of the Science Faculty to acce
 
 ## 2.6 Apportioning of Requirements 
  TO DO
+ ## 2.6 Use Cases
+ View Student
+ Create Session
+ Create Staff 
+ View Staff
+ Update Staff
+ Archive Staff
+ 
+ 
