@@ -1,6 +1,6 @@
-Lab 2 Documentation
+# Lab 2 Documentation
 
-Description of the test program :
+## Description of the test program :
 
 test programm reads in an input file which is contains a set of inputs and outputs.
 these will be used to compare each input with its corresponding output. the programme is
