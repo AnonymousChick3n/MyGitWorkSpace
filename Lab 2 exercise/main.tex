@@ -1,0 +1,64 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{verbatim}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ right=20mm,
+ bottom=20mm
+ }
+
+\title{Prime Numbers}
+\author{Taylor Letsoaka\\Nando Bingani\\Nkavelo Nxumalo\\Lesetsa Mafisa\\Ziphozonke Mbatha}
+\date{August 2018}
+
+
+\begin{document}
+\maketitle
+\clearpage
+\tableofcontents
+\newpage
+
+\section{Purpose}
+\large{The purpose of this document is to show the analysis of a function that takes in a long positive integer number X and then it outputs the number of prime numbers less than or equal to X.It goes into detail and shows how we modified our input and it describes test program such as unit,integration and system testing.}
+\section{Description of the code}
+\large{These prime numbers are then inserted in order in the
+long integer array prime[]. If no prime numbers are possible error codes are returned in N. The use of the algorithm ”The sieve of Eratosthenes” to generate our primes.}
+\section{ Modifications in the way parameters are passed}
+\large{for the program to execute a list of primes our input must first be considered to be an integer type. We've
+made the the program to strictly accept integer values, if some sort of input type is entered then the program 
+asks the user to enter the correct input type which is an  integer,since only integers have prime values.if the user entered the correct input type then the program checks whether the input is greater than 1 or not, if not an  empty list is returned or else the list with values corresponding to the list of primes.
+ }
+\section{Description of the test program :}
+\subsection{test case unit testing}
+\large{The unit test was implemented by having two test cases for the is\_prime() module. The two test cases are test\_primes() and test\_non\_primes().The test cases are implemented using a class approach as compared to testProg().}
+
+\subsubsection{test\_primes()}  
+This test case reads in a standard text file (primes.txt) which contains a list of known prime numbers as a string. The test\_primes() module reads the file as input then splits and maps the entries into an integer array called numbers.When test\_primes iterates through the numbers array it is expected to pass.
+
+ \subsubsection{test\_non\_primes()}
+This test case reads in a standard text file (nonprimes.txt) which contains a list of known non prime numbers as a string. The test\_non\_primes() module reads the file as input then splits and maps the entries into an integer array called numbers.When test\_non\_primes iterates through the numbers array it is expected to pass.
+
+\subsection{Integration testing} 
+\large{Integration testing is meant to test the prime\_numbers()
+module which invokes is\_prime().}
+
+\subsubsection{test\_primes\_of\_X()} 
+This module reads in a text file named primes\_of\_X.txt which contains X and the first n primes before or including X. X is passed to the prime\_numbers() module, where the prime\_numbers() module returns a list of prime numbers before or including X and the result is compared to the first n primes before X which is read from the text file  primes\_of\_X.txt. This is done for multiple inputs. If the lists are equal then the test passed.
+
+\subsubsection{test\_empty\_sets()}
+This module reads in a text file named empty\_set.txt which contains X. X is passed to the test\_empty\_sets() module, where the test\_empty\_sets() module returns an empty list to indicate that there are no primes before or including X.
+
+\subsection{Visuals Of The tests}
+\subsubsection{Example when all tests passed}
+\includegraphics[width= 15cm , height=7cm]{pass.png}
+\subsubsection{Example when all tests fail}
+\includegraphics[width= 15cm , height=7cm]{fail.png}
+
+\newline The tests run according to the subsections i.e test first test explained runs first
+\end{document}
