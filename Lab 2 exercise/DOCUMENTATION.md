@@ -17,6 +17,21 @@ asks the user to enter the correct input type which is an  integer,since only in
  
 ## Description of the test program :
 ### test case unit testing
+The unit test was implemented by having two test cases for the is_prime() module. The two test cases were test_primes() and test_non_primes().The test cases are implented using a class approach as compared to testProg(). 
+
+#### test_primes() 
+This test case reads in a standard text file (primes.txt) which contains a list of known prime numbers as a string. The test_primes() module reads the file as input then splits and maps the entries into an integer array called numbers.When test_primes iterates through the numbers array it is expected to pass.
+
+#### test_non_primes() 
+This test case reads in a standard text file (nonprimes.txt) which contains a list of known non prime numbers as a string. The test_non_primes() module reads the file as input then splits and maps the entries into an integer array called numbers.When test_non_primes iterates through the numbers array it is expected to pass.
+
+ ### Intergration testing 
+Integretion testing is meant to test the prime_numbers()
+module which invokes is_prime().
+
+#### test_primes_of_X()
+This module reads in a text file named primes_of_X.txt which contains X and the first n primes before or including X. X is passed to the prime_numbers() module, where the prime_numbers() module returns an interval of prime numbers before or including X and the result is compared to the first n primes before X which read from the text file as the second line from primes_of_X.txt. If the intervals are equal then the test case passed.
+
 
 test programm reads in an input file which is contains a set of inputs and outputs.
 these will be used to compare each input with its corresponding output. the programme is
