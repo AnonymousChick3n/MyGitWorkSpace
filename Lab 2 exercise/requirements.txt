@@ -1,0 +1,30 @@
+You are expected to develop and implement a function PrimeNumbers() that takes a positive integer number X,
+and generates all prime numbers less than or equal to X.
+
+You are then to develop and write a main program that serves as a test-driver to test various scenarios of possible
+misuse and proper use of this module.
+
+A script bash file may be written to run all the tests that you deem necessary.
+You may address the following questions and these are not exhaustive.
+
+•	What modification will you make to the way parameters are passed to PrimeNumbers() and why?
+•	What test cases do you envisage and how would you structure a testProg() to run and test all your possible
+    scenarios, reading inputs from some input file.
+•	Conduct unit, system and integration testing and generate a report of your testing procedures
+
+Consider writing a function
+PrimeNumbers(Input X, Input/Output N, Output Prime[])
+
+•	N is an output variable that holds the number of primes less than or equal to X or an error code that can
+    be interpreted into a meaning-full text.
+•	Function computes N, the number of prime numbers less than or equal to X.
+•	What modification will you make to the way parameters are passed to PrimeNumbers() and why?
+•	What test cases do you envisage and how would you structure a testProg() to run and test all your
+    possible scenarios.
+    The inputs for testing various conditions are to be read from some input file .
+
+Your submissions should include:
+
+•	A high-level description of what your test-program does
+•	The various scenarios tested and the examples of the respective results
+•	A copy of the input files of your tests.

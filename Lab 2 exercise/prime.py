@@ -1,50 +1,80 @@
-def PrimeNumbers(max):
+def prime_numbers(X):
+    """Returns a list of the first n primes before and including X"""
 
-    if(max > 1):
-        primes = []
-        for number in range(2, max+1):
-            prime = True
-            for divisor in range(2, number):
-                if(number == 2):
-                    prime = True
-                elif(number%divisor == 0):
-                    prime = False
-            if(prime):
-                primes.append(number)
-        #print(primes)
-        return str(primes)
-    elif(max == 0 or max == 1):
-        return str([])
-    else:
-        return str([])
+    primes = []
+    for number in range(2, X + 1):
+        if is_prime(number):
+            primes.append(number)
+    return primes
 
 
-def prime_numbers(max):
+def is_prime(number):
+    """Returns true if number is a prime. Returns false otherwise"""
+    for divisor in range(2, number):
+        if number % divisor == 0:
+            return False
 
-    N = 0
+    if number < 2:
+        return False
+
+    return True
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def prime_numbers1(X):
+    """primes"""
+
+    X = 0
     numbers = []
-    marked = [False]*max
+    marked = [False] * X
 
-    if(max < 2):
+    if(X < 2):
         print("No primes")
-    elif (max == 2):
+    elif (X == 2):
         numbers.append(2)
     else:
-        numbers = range(max+1)
+        numbers = range(X + 1)
         index = 2
         constant = numbers[index]
         variable = numbers[index]
         product = constant*variable
 
-        while(constant*constant < max):
+        while(constant * constant < X):
 
-            if(product < max):
+            if(product < X):
                 marked[product] = True
                 variable += 1
                 product = constant*variable
 
-            if(product >= max):
-                for i in range(constant+1, max):
+            if(product >= X):
+                for i in range(constant+1, X):
                     if(marked[i] == False):
                         constant = numbers[i]
                         break
@@ -55,9 +85,10 @@ def prime_numbers(max):
         for i in range(2, len(marked)):
             if marked[i] == False:
                 primes.append(numbers[i])
-        N = len(primes)
+        X = len(primes)
         print("List of primes: ", primes)
-        print("Number of primes: ", N)
+        print("Number of primes: ", X)
+
 
 def testProg():
 
@@ -79,8 +110,10 @@ def testProg():
 
 
 if __name__ == '__main__':
+    X = int(input("Enter number: "))
+    print(prime_numbers(X))
 
-    invalid = True
+    '''invalid = True
 
     while (invalid):
         _max = input("Enter number: ")
@@ -93,4 +126,4 @@ if __name__ == '__main__':
     testProg()
 
 
-    #testProg()
+    #testProg()'''
