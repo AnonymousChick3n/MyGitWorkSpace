@@ -1,11 +1,10 @@
 # Lab 2 Documentation
 
 ## Modifications in the way parameters are passed
-for thte program to execte a list of primes our input must first be considered to be an integer we've
+for thte program to execte a list of primes our input must first be considered to be an integer type. We've
 made the the program to stricly accept integer values, if some sort of input type is enterd then the program 
-asks the user to enter the correct input type which is an  integer.
-if the user entered the correct input type then the program checks wherether the input is greater than 1 or not we
-implementent such case to 
+asks the user to enter the correct input type which is an  integer.if the user entered the correct input type then the program checks wherether the input is greater than 1 or not, if not an  empty list is returned or else the list with values corresponding to the list of primes.
+ 
 ## Description of the test program :
 
 test programm reads in an input file which is contains a set of inputs and outputs.
