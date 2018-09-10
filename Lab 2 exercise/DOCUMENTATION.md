@@ -1,6 +1,6 @@
 # Lab 2 Documentation
 ## purpose 
-The purpose of this document is to show the analysis of the function that takes in a positive long integer number X and outputs  the number of prime numbers less than or equal to X. Showing how we modified our input and the description of the test program.
+The purpose of this document is to show the analysis of a function that takes in a long positive integer number X and then it outputs the number of prime numbers less than or equal to X.It goes into detail and shows how we modified our input and it describes test program such as unit,integration and system testing.
 
 ## description of the code
 We wrote a function of primes that accepts input and then return a list of primes,These prime numbers are then inserted in order in the
