@@ -30,7 +30,7 @@ Integretion testing is meant to test the prime_numbers()
 module which invokes is_prime().
 
 #### test_primes_of_X()
-This module reads in a text file named primes_of_X.txt which contains X and the first n primes before or including X. X is passed to the prime_numbers() module, where the prime_numbers() module returns an interval of prime numbers before or including X and the result is compared to the first n primes before X which read from the text file as the second line from primes_of_X.txt. If the intervals are equal then the test case passed.
+This module reads in a text file named primes_of_X.txt which contains X and the first n primes before or including X. X is passed to the prime_numbers() module, where the prime_numbers() module returns a list of prime numbers before or including X and the result is compared to the first n primes before X which is read from the text file  primes_of_X.txt. This is done for multiple inputs. If the lists are equal then the test passed.
 
 
 test programm reads in an input file which is contains a set of inputs and outputs.
